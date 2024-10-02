@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+  <section id="header">
+    <a href="index.html"><img src="images/logo.png" class="logo" alt="" width="80px"></a>
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navy " href="#" role="button" data-bs-toggle="dropdown"> Products</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item navy" href="productsec1.html"> Clothes Section</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item navy" href="productsec2.html"> Shoes Section </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item navy" href="productsec3.html"> Bags Section </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item navy" href="productsec4.html"> Make-Up Section</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="userinfo.html"><i class="fa-solid fa-user lg"></i></a></li>
+        <li><a href="favourite.html"><i class="fa-solid fa-heart "></i></a></li>
+        <li><a href="cart.html"><i class="fa-solid fa-bag-shopping lg"></i></a>
+          <span class="badge"></span></li>
+        <li><a href="#" id="logout">Logout</a></li>
+        <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+      <a href="userinfo.html"><i class="fa-solid fa-user"></i></a>
+      <i id="bar" class="fa-solid fa-outdent "></i>
+      
+    </div>
+  </section>
+
+
+<section class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you! Reach out to us through any of the methods below.</p>
+  
+      <div class="contact-container">
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+  
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+  
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+  
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+  
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><strong>Email:</strong> support@ecommerce.com</p>
+          <p><strong>Phone:</strong> +123-456-7890</p>
+          <p><strong>Address:</strong> 1234 E-commerce St, City, Country</p>
+  
+          
+        </div>
+      </div>
+  
+      <div class="map-container">
+        <h3>Find Us Here</h3>
+        <iframe src="https://maps.google.com/maps?q=E-commerce%20Street&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+
+  <script src="js/contact.js"></script>
+</body>
+</html>
+  

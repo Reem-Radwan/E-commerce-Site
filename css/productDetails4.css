@@ -1,0 +1,134 @@
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.product-details-container {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-details-container img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-info {
+    max-width: 600px;
+}
+
+.product-info h2 {
+    margin: 0;
+}
+
+.product-info h4 {
+    color: #333;
+}
+
+.product-info p {
+    margin: 10px 0;
+}
+
+button {
+    background: #2c8ff8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background:  #5c9de4;
+}
+
+.badge {
+    position: absolute;
+    top: 24px;
+    right: 170px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-align: center
+}
+
+
+
+
+/*-------------------responsive--------------------------------*/
+
+  
+@media (max-width: 799px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        height: 100vh;
+        width: 200px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0 , 0 ,0 , 0.1) ;
+        padding: 80px 0 0 10px;
+       
+    }
+  
+    #navbar li{
+        margin-bottom: 20px;
+    }
+    #navbar.active{
+        right: 0;
+    }
+  
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+  
+    #mobile i{
+        color: #000;
+        padding-left: 20px;
+    }
+    #close{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #000;
+        font-size: 20px;
+        display: block;
+    }
+
+    .product-details-container{
+        flex-direction: column;
+    }
+    .badge{
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background: red;
+        color: white;
+        text-align: center;
+        display: block;
+        border-radius: 50%;
+        top: 310px;
+        right: 143px;
+        font-size: 10px;
+        
+        } 
+   
+
+  }
+    
+  
+  
